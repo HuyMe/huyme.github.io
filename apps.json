@@ -1,50 +1,9 @@
-[
-    {
-      "DeploymentUrl": "gps",
-      "OnlineVersion": "1.0.0.1",
-	  "AppId": "client-Gps",
-	  "AppName": "Flink-Gps",
-	  "ShowOnHub": true,
-	  "GroupName": "H2"
-    },
-    {
-      "DeploymentUrl": "wh",
-      "OnlineVersion": "1.0.5.6",
-	  "AppId": "client-warehouse",
-	  "AppName": "Flink-Warehouse",
-	  "ShowOnHub": true,
-	  "GroupName": "FLink"
-    },
-	{
-      "DeploymentUrl": "",
-      "OnlineVersion": "1.0.22",
-	  "AppId": "flink-mobile-android-store",
-	  "AppName": "flink-mobile-android-store",
-	  "GroupName": "FLink"
-    },
-	{
-      "DeploymentUrl": "",
-      "OnlineVersion": "1.1.28",
-	  "AppId": "flink-mobile-ios-store",
-	  "AppName": "flink-mobile-ios-store",
-	  "GroupName": "FLink"
-    },
-	{
-      "DeploymentUrl": "",
-	  "OnlineVersion": "1.1.25",
-	  "CodePushVersion" : "1.1.24",
-	  "AppId": "hncmua-mobile-ios-store",
-	  "AppName": "hncmua-mobile-ios-store",
-	  "GroupName": "HNCMua",
-	  "IsRequire": false
-    },
-	{
-      "DeploymentUrl": "",
-	  "OnlineVersion": "1.0.24",
-	  "CodePushVersion" : "1.1.24",
-	  "AppId": "hncmua-mobile-android-store",
-	  "AppName": "hncmua-mobile-android-store",
-	  "GroupName": "HNCMua",
-	  "IsRequire": false
-    }
-]
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.fastlink.online",
+    "sha256_cert_fingerprints":
+    ["FA:C6:17:45:DC:09:03:78:6F:B9:ED:E6:2A:96:2B:39:9F:73:48:F0:BB:6F:89:9B:83:32:66:75:91:03:3B:9C"]
+  }
+}]
